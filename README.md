@@ -94,6 +94,22 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 
 **6)**<img src="best_predict_on_test2/A0408.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0408_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0408.png_attention.png" alt="CAM_PLOT" width="200"/>
 
-
+## Dataset
+To apply the model to a custom dataset, the data tree should be constructed as follows:
+``` 
+    ├── data
+          ├── images
+                ├── image_1.png
+                ├── image_2.png
+                ├── image_n.png
+          ├── masks
+                ├── image_1.png
+                ├── image_2.png
+                ├── image_n.png
+```
+## CSV generation 
+```
+python data_split_csv.py --dataset your/data/path --size 0.9 
+```
 ## Acknowledgement
 The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
