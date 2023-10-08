@@ -2,9 +2,9 @@
 This a submission to the contest conducted by MISAHUB titled AutoWCEBleed-Challenge
 
 # Auto-WCEBleedGen Challenge
-Automatic Classification, Segmentation and Detecton of Bleeding and Non-Bleeding Frames in a Wireless Capsule Endoscopy images.
+Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleeding Frames in a Wireless Capsule Endoscopy Images.
 
-## Achieved Evalution Metrics 
+## Achieved Evaluation Metrics 
 
 ### Classification Metrics
 
@@ -20,7 +20,7 @@ Automatic Classification, Segmentation and Detecton of Bleeding and Non-Bleeding
 |---------------------------|--------|--------|
 | Mean IoU                  | 0.6849 | 0.3495 |
 | Average Precision         | 0.3723 | 0.4096 |
-| Mean Average Precision    | 0.3731 |   -    |
+| Mean Average Precision    | 0.3731 |    -   |
 
 
 ## Some Predicted Image of Validation Dataset
