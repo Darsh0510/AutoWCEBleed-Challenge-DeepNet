@@ -58,5 +58,42 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 
 **11)**<img src="best_predict_on_val/268.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/268_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/268_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/268.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
+
+## Some Predicted Images of Test 1 Dataset
+    Image                     Prediction                  CAM plot
+**1)**<img src="best_predict_on_test1/A0036.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test1/A0036.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test1/A0036.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**2)**<img src="best_predict_on_test1/A0037.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test1/A0037.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test1/A0037.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**3)**<img src="best_predict_on_test1/A0038.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test1/A0038.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test1/A0038.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**4)**<img src="best_predict_on_test1/A0039.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test1/A0039.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test1/A0039.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**5)**<img src="best_predict_on_test1/A0047.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test1/A0047.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test1/A0047.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+## Some Predicted Images of Test 2 Dataset
+**1)**<img src="best_predict_on_test2/A0061.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0061.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0061.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**2)**<img src="best_predict_on_test2/A0173.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0173.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0173.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**3)**<img src="best_predict_on_test2/A0205.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0205.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0205.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**4)**<img src="best_predict_on_test2/A0298.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0298.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0298.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**5)**<img src="best_predict_on_test2/A0300.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0300.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0300.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
+**6)**<img src="best_predict_on_test2/A0408.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0408.png_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0408.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+
 ## Acknowledgement
 The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
