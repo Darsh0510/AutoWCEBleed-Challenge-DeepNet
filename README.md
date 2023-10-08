@@ -25,7 +25,7 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 
 ## Some Predicted Image of Validation Dataset
 
-    Image                            Ground Truth                                        Prediction                            CAM plot    
+    Image                 Ground Truth                      Prediction                  CAM plot    
 <img src="best_predict_on_val/0.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/0_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/0_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/0.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
 
