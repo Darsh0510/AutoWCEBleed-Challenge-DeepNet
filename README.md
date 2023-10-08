@@ -20,7 +20,7 @@ Automatic Classification, Segmentation and Detecton of Bleeding and Non-Bleeding
 |---------------------------|--------|--------|
 | Mean IoU                  | 0.6849 | 0.3495 |
 | Average Precision         | 0.3723 | 0.4096 |
-| Mean Average Precision    | 0.3723 | 0.4096 |
+| Mean Average Precision    | 0.3731 |   -    |
 
 
 ## Some Predicted Image of Validation Dataset
