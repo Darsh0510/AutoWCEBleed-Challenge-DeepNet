@@ -26,8 +26,27 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 ## Some Predicted Image of Validation Dataset
 
     Image                     Ground Truth                  Prediction                  CAM plot    
-<img src="best_predict_on_val/0.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/0_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/0_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/0.png_attention.png" alt="CAM_PLOT" width="200"/> 
+1)<img src="best_predict_on_val/0.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/0_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/0_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/0.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
+2)<img src="best_predict_on_val/3.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/3_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/3_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/3.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+3)<img src="best_predict_on_val/45.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/45_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/45_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/45.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+4)<img src="best_predict_on_val/50.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/50_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/50_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/50.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+5)<img src="best_predict_on_val/65.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/65_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/65_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/65.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+6)<img src="best_predict_on_val/71.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/71_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/71_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/71.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+7)<img src="best_predict_on_val/72.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/72_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/72_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/72.png_attention.png" alt="CAM_PLOT" width="200"/>
+
+8)<img src="best_predict_on_val/140.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/140_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/140_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/140.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+9)<img src="best_predict_on_val/183.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/183_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/183_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/183.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+10)<img src="best_predict_on_val/208.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/208_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/208_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/208.png_attention.png" alt="CAM_PLOT" width="200"/> 
+
+11)<img src="best_predict_on_val/268.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/268_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/268_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/268.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
 ## Acknowledgement
 The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
