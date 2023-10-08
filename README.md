@@ -26,9 +26,9 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 ## Some Predicted Image of Validation Dataset
 
     Image                     Ground Truth                  Prediction                  CAM plot    
-1)<img src="best_predict_on_val/0.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/0_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/0_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/0.png_attention.png" alt="CAM_PLOT" width="200"/> 
+**1)**<img src="best_predict_on_val/0.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/0_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/0_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/0.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
-2)<img src="best_predict_on_val/3.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/3_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/3_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/3.png_attention.png" alt="CAM_PLOT" width="200"/> 
+**2)**<img src="best_predict_on_val/3.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/3_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/3_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/3.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
 3)<img src="best_predict_on_val/45.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_val/45_ground.png" alt="Ground Truth" width="200"/> <img src="best_predict_on_val/45_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_val/45.png_attention.png" alt="CAM_PLOT" width="200"/> 
 
