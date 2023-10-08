@@ -89,7 +89,7 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 **4)**<img src="best_predict_on_test2/A0298.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0298_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0298.png_attention.png" alt="CAM_PLOT" width="200"/>
 
 
-**5)**<img src="best_predict_on_test2/A0300.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0300_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0300.png_attention.png" alt="CAM_PLOT" width="200"/>
+**5)**<img src="best_predict_on_test2/A0283.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0283_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0283.png_attention.png" alt="CAM_PLOT" width="200"/>
 
 
 **6)**<img src="best_predict_on_test2/A0408.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0408_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0408.png_attention.png" alt="CAM_PLOT" width="200"/>
