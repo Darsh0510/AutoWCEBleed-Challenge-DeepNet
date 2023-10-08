@@ -137,9 +137,9 @@ python prediction_script.py --dataset [path_to_root_directory] --csvfile [file c
 
 ## Team Members
 ```
-**Dr Prerana Mukherjee**
-**Paladugu Sai Sivakesh**
-**Vemula Darshan**
+Dr Prerana Mukherjee
+Paladugu Sai Sivakesh
+Vemula Darshan
 ```
 ## Acknowledgement
 The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
