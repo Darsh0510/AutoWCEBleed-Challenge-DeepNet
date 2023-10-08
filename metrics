@@ -1,0 +1,27 @@
+0.8127656011911463 - metrics iou
+
+mean IoU: 0.6849 0.3495
+mean accuracy: 0.9625 0.0605
+mean precsion: 0.3723 0.4096
+mean recall: 0.3592 0.4102
+mean F1-score: 0.3528 0.3957
+
+
+Evaluation complete in 0m 26s
+FPS: 44.12
+mean IoU: 0.3013 0.3418
+mean accuracy: 0.9625 0.0605
+mean precsion: 0.3723 0.4096
+mean recall: 0.3592 0.4102
+mean F1-score: 0.3528 0.3957
+
+
+Evaluation complete in 0m 4s
+FPS: 18.90
+mean IoU: 0.0789 0.1512
+mean accuracy: 0.9284 0.0655
+mean precsion: 0.3545 0.4524
+mean recall: 0.0826 0.1617
+mean F1-score: 0.1157 0.2085
+
+
