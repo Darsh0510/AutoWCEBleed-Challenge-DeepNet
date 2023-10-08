@@ -113,3 +113,26 @@ python data_split_csv.py --dataset your/data/path --size 0.9
 ```
 ## Acknowledgement
 The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
+
+## Training
+
+**1) Prepare the csv file**
+```
+python data_split_csv.py --dataset [path_to_dataset] --size 0.9 \# size of train split
+```
+**2) Use The Generated CSV file for training**
+```
+python train.py --dataset [path_to_images] --csvfile [csv file containg train and test split] --loss dice --batch 8 --lr 0.001 --epoch 150
+```
+
+## Evaluation
+```
+python evaluation_script.py --dataset [path_to_dataset] --csvfile [csv file containg train and test split] --model [path_to_the_model]
+```
+
+## Prediction
+
+Results will be saved to debug directory will be created if doesn't exist
+```
+python prediction_script.py --dataset [path_to_root_directory] --csvfile [file containing path to images] --model [path_to_the_model]
+```
