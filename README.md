@@ -111,12 +111,10 @@ To apply the model to a custom dataset, the data tree should be constructed as f
 ```
 python data_split_csv.py --dataset your/data/path --size 0.9 
 ```
-## Acknowledgement
-The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
 
 ## Training
 
-**1) Prepare the csv file**
+**1) Prepare the CSV file**
 ```
 python data_split_csv.py --dataset [path_to_dataset] --size 0.9 \# size of train split
 ```
@@ -127,7 +125,7 @@ python train.py --dataset [path_to_images] --csvfile [csv file containg train an
 
 ## Evaluation
 ```
-python evaluation_script.py --dataset [path_to_dataset] --csvfile [csv file containg train and test split] --model [path_to_the_model]
+python evaluation_script.py --dataset [path_to_dataset] --csvfile [csv file containing train and test split] --model [path_to_the_model]
 ```
 
 ## Prediction
@@ -136,3 +134,12 @@ Results will be saved to debug directory will be created if doesn't exist
 ```
 python prediction_script.py --dataset [path_to_root_directory] --csvfile [file containing path to images] --model [path_to_the_model]
 ```
+
+## Team Members
+```
+**Dr Prerana Mukherjee**
+**Paladugu Sai Sivakesh**
+**Vemula Darshan**
+```
+## Acknowledgement
+The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
