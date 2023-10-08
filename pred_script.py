@@ -19,8 +19,10 @@ from pytorch_grad_cam.utils.image import show_cam_on_image
 import xlwt
 from xlwt import Workbook
 
-# commented code is for excel genaration.
 
+"""
+Class for wrapping the output of model to track gradients for GradCAM
+"""
 class SemanticTarget:
         def __init__(self, category, mask):
             self.category = category
@@ -99,6 +101,8 @@ if __name__ == '__main__':
     targets = [SemanticTarget(1, pseudo_mask)]
 
     since = time.time()
+    """
+    *************Excel sheet for Classification*******************
     # for excel
     #wb = Workbook()
     #sheet1 = wb.add_sheet('Sheet 1')
@@ -107,11 +111,16 @@ if __name__ == '__main__':
     #cnt = 1
     #bleed = 0
     #nonbleed = 0
+    ***************************************************************
+    """
+
+    #---------------------storing the endoscopy images--------------------------#
     for image_id in test_files:
         img = cv2.imread(f'data/val/images/{image_id}') # change the path to images here
         img = cv2.resize(img, (224,224))
         img_id = list(image_id.split('.'))[0]
         cv2.imwrite(f'debug/{img_id}.png',img) # change the directory here
+    #---------------------------------------------------------------------------#
     
     for img, real_image, img_id in test_dataset:
         
@@ -127,6 +136,8 @@ if __name__ == '__main__':
 
         pred[pred >= 0.5] = 1
         pred[pred < 0.5] = 0
+        
+        #-------------------writing the classification to Excel Sheet--------------------#
         #if len(torch.unique(pred)) == 1:
             #nonbleed += 1
             #sheet1.write(cnt,0,img_id)
@@ -136,25 +147,30 @@ if __name__ == '__main__':
             #sheet1.write(cnt,0,img_id)
             #sheet1.write(cnt,1,'Bleeding')
         #cnt += 1
+        #--------------------------------------------------------------------------------#
         
-
+        #-----------------saving the attention map of neural network---------------------#
         pred_draw = pred.clone().detach()
         real_image = (real_image/255).astype(np.float32)
         with GradCAM(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available()) as cam:
             grayscale_cam = cam(input_tensor=img, targets=targets)[0, :]
             cam_image = show_cam_on_image(real_image, grayscale_cam, use_rgb=True)
         cv2.imwrite(f'debug/{img_id}_attention.png', cam_image) # change the directory here
+        #--------------------------------------------------------------------------------#
         
+        #-----------------printing the predicted mask------------------------------------#
         if args.debug:
             img_id = list(img_id.split('.'))[0]
             img_numpy = pred_draw.cpu().detach().numpy()[0][0]
             img_numpy[img_numpy==1] = 255 
             cv2.imwrite(f'debug/{img_id}_pred.png',img_numpy) # change the directory here
+        #--------------------------------------------------------------------------------#
             
         pred = pred.view(-1)
         torch.cuda.empty_cache()
             
     time_elapsed = time.time() - since
+    """********Saving The Excel Sheet**********"""
     #wb.save('./ans.xls')
     #print(bleed,nonbleed)
     print('Evaluation complete in {:.0f}m {:.0f}s'.format(

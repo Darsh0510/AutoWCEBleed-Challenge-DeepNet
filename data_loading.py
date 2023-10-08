@@ -16,7 +16,7 @@ def Normalization():
 
 
 #Dataset Loader
-
+#-------------------Class for Training and Evaluating The Network-----------------------------#
 class binary_class(Dataset):
         def __init__(self,path,data, transform=None):
             self.path = path
@@ -40,7 +40,9 @@ class binary_class(Dataset):
             mask = augmented['mask']
             
             return img, mask, image_id
+#-----------------------------------------------------------------------------#
 
+#----------------------Class for Predicting The Mask------------------------------#
 class binary_class_eval(Dataset):
         def __init__(self,path,data, transform=None):
             self.path = path
@@ -53,15 +55,11 @@ class binary_class_eval(Dataset):
         
         def __getitem__(self,idx):
             image_path = os.path.join(self.path,'images/',self.folders[idx])
-            # mask_path = os.path.join(self.path,'masks/',self.folders[idx])
             image = cv2.imread(image_path)[:,:,:3].astype('float32')
-            # mask = cv2.imread(mask_path, 0)
-            # mask = (mask == 255).astype('uint8')
             image_id = self.folders[idx]
             
-            augmented = self.transforms(image=image)# , mask=mask)
+            augmented = self.transforms(image=image)
             img = augmented['image']
-            # mask = augmented['mask']
             
             return img, image, image_id
         
