@@ -22,7 +22,7 @@ class binary_class(Dataset):
             self.path = path
             self.folders = data
             self.transforms = transform
-            self.histogram_equalization = A.CLAHE(p=1)
+            self.histogram_equalization = A.CLAHE(always_apply=True, p=1)
         
         def __len__(self):
             return len(self.folders)
@@ -50,6 +50,7 @@ class binary_class_eval(Dataset):
             self.path = path
             self.folders = data
             self.transforms = transform
+            self.histogram_equalization = A.CLAHE(always_apply=True, p=1)
         
         def __len__(self):
             return len(self.folders)
@@ -57,7 +58,9 @@ class binary_class_eval(Dataset):
         
         def __getitem__(self,idx):
             image_path = os.path.join(self.path,'images/',self.folders[idx])
-            image = cv2.imread(image_path)[:,:,:3].astype('float32')
+            image = cv2.imread(image_path)[:,:,:3]
+            image = self.histogram_equalization(image=image)['image']
+            image = image.astype('float32')
             image_id = self.folders[idx]
             
             augmented = self.transforms(image=image)
