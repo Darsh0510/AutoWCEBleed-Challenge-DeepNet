@@ -65,7 +65,7 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=5):
         
             # Iterate over data
             #for inputs,labels,label_for_ce,image_id in dataloaders[phase]: 
-            for inputs,labels in dataloaders[phase]:      
+            for inputs,labels, img_id in dataloaders[phase]:      
                 # wrap them in Variable
                 if torch.cuda.is_available():
                     
