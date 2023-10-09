@@ -77,6 +77,7 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 
 
 ## Some Predicted Images of Test 2 Dataset
+    Image                     Prediction                  CAM plot
 **1)**<img src="best_predict_on_test2/A0061.png" alt="OriginalImage" width="200"/> <img src="best_predict_on_test2/A0061_pred.png" alt="Bleeding Prediction" width="200"/> <img src="best_predict_on_test2/A0061.png_attention.png" alt="CAM_PLOT" width="200"/>
 
 
