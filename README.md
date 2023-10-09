@@ -18,7 +18,7 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 ### Segmentation Metrics
 |                           |   Mean | Std    |
 |---------------------------|--------|--------|
-| Mean IoU (threshold 0.5)  | 0.6849 | 0.3495 |
+| Mean IoU (threshold 0.5)  | 0.7492 | 0.3098 |
 | Average Precision         | 0.3723 | 0.4096 |
 | Mean Average Precision    | 0.3731 |    -   |
 
@@ -142,4 +142,6 @@ Paladugu Sai Sivakesh
 Vemula Darshan
 ```
 ## Acknowledgement
-The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
+* The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
+* Aproximately 1000 images were also taken from the following [dataset](https://rdm.inesctec.pt/dataset/nis-2018-003) for further improving the model
+

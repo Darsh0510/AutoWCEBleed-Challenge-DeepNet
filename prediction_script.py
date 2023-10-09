@@ -47,11 +47,8 @@ class IoU(nn.Module):
         intersection = (inputs * targets).sum()
         total = (inputs + targets).sum()
         union = total - intersection 
-        #if total == 0:
-        	#return torch.tensor(0.)
         
         IoU = (intersection + smooth)/(union + smooth)
-        print(IoU)
                 
         return IoU
 
@@ -116,7 +113,7 @@ if __name__ == '__main__':
 
     #---------------------storing the endoscopy images--------------------------#
     for image_id in test_files:
-        img = cv2.imread(os.path.join(args.dataset, image_id) # change the path to images here
+        img = cv2.imread(os.path.join(args.dataset, 'images', image_id))
         img = cv2.resize(img, (224,224))
         img_id = list(image_id.split('.'))[0]
         cv2.imwrite(f'debug/{img_id}.png',img) # change the directory here
