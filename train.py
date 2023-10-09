@@ -27,7 +27,6 @@ def get_train_transform():
         A.HorizontalFlip(p=0.25),
         A.ShiftScaleRotate(shift_limit=0,p=0.25),
         A.CoarseDropout(),
-        A.CLAHE(p=1),
         A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
         ToTensor()
         ])
@@ -36,7 +35,6 @@ def get_valid_transform():
    return A.Compose(
        [
         A.Resize(224, 224),
-        A.CLAHE(p=1),
         A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
         ToTensor()
         ])
