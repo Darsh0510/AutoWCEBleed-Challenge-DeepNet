@@ -30,7 +30,14 @@ class binary_class(Dataset):
         def __getitem__(self,idx):
             image_path = os.path.join(self.path,'images/',self.folders[idx])
             mask_path = os.path.join(self.path,'masks/',self.folders[idx])
-            img = cv2.imread(image_path)[:,:,:3].astype('float32')
+            img = cv2.imread(image_path)[:,:,:3]
+            b,g,r = cv2.split(img)
+            equalized_b = cv2.equalizeHist(b)
+            equalized_g = cv2.equalizeHist(g)
+            equalized_r = cv2.equalizeHist(r)
+
+            img =cv2.merge((equalized_b, equalized_g, equalized_r)).astype('float32')
+
             mask = cv2.imread(mask_path, 0)
             mask = (mask == 255).astype('uint8')
             image_id = self.folders[idx]
