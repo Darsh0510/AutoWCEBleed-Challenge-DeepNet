@@ -92,7 +92,7 @@ if __name__ == '__main__':
     since = time.time()
     
     for image_id in test_files:
-        img = cv2.imread(f'data/val/images/{image_id}')
+        img = cv2.imread(os.path.join(args.dataset, image_id))
         img = cv2.resize(img, (224,224))
         img_id = list(image_id.split('.'))[0]
         cv2.imwrite(f'debug/{img_id}.png',img)
