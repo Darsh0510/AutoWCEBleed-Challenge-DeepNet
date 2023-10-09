@@ -18,7 +18,7 @@ Automatic Classification, Segmentation and Detection of Bleeding and Non-Bleedin
 ### Segmentation Metrics
 |                           |   Mean | Std    |
 |---------------------------|--------|--------|
-| Mean IoU (threshold 0.5)  | 0.6849 | 0.3495 |
+| Mean IoU (threshold 0.5)  | 0.7226 | 0.3495 |
 | Average Precision         | 0.3723 | 0.4096 |
 | Mean Average Precision    | 0.3731 |    -   |
 
