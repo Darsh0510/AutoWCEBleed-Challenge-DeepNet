@@ -145,4 +145,6 @@ Vemula Darshan
 ## Acknowledgement
 * The codes are modified from [DCSAU-Net](https://github.com/xq141839/DCSAU-Net)
 * Aproximately 1000 images were also taken from the following [dataset](https://rdm.inesctec.pt/dataset/nis-2018-003) for further improving the model
+## Results
+We are proud to share that we have achieved **2nd Rank** in the **AutoWCEBleedGen Vesion V1 Challenge**.
 
